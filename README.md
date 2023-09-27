@@ -14,8 +14,8 @@ A program, created for my OOP class during the second semester of my Software En
 - Run GenealogicalTree.exe.
 - The app has two types of accounts - admin and user. A person with a user account or with no account can only search and view people's profiles and family trees. An admin can add, remove, and edit people's profiles and family trees.
 - The repository contains one user account and one admin account:
-        Admin. Username - admin, password - 12345678
-        User. Username - new_account, password - 12345678
+  Admin. Username - admin, password - 12345678
+  User. Username - new_account, password - 12345678
 - A console family tree looks like this: a person in the middle, people above them are their ancestors, and people below them are their successors. This is true for every person in a tree.
 
     
