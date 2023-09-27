@@ -4,7 +4,7 @@ A program, created for my OOP class during the second semester of my Software En
 
 # What I Learned
 
-- How to design a better architecture.
+- How to design a better n-layered architecture.
 - How to implement custom Dependency Injection.
 
 # How to Use It
