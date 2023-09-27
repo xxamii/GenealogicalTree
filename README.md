@@ -16,7 +16,7 @@ A program, created for my OOP class during the second semester of my Software En
 - The repository contains one user account and one admin account:
     Admin. Username - admin, password - 12345678
     User. Username - new_account, password - 12345678
-- A console family tree looks like this. A person in the middle. People above them are their ancestors and people below them are their successors. This is true for every person in a tree.
+- A console family tree looks like this: a person in the middle, people above them are their ancestors, and people below them are their successors. This is true for every person in a tree.
 
     
               ├── (1)Jane Doe
