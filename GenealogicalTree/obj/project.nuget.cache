@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vxzaj8K9XimGqvJFjUda9/AVDPs8Pco1PnIklXv9BmvxJu2U2BnrZl4ljFEpQMCmjly/xvMgoOi/9vEZ4J8CAQ==",
+  "success": true,
+  "projectFilePath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\GenealogicalTree\\GenealogicalTree.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mtrol\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

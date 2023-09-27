@@ -1,0 +1,436 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\GenealogicalTree\\GenealogicalTree.csproj": {}
+  },
+  "projects": {
+    "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL.Abstractions\\BLL.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL.Abstractions\\BLL.Abstractions.csproj",
+        "projectName": "BLL.Abstractions",
+        "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL.Abstractions\\BLL.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\mtrol\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL\\BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\mtrol\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL.Abstractions\\BLL.Abstractions.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL.Abstractions\\BLL.Abstractions.csproj"
+              },
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj"
+              },
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL.Abstractions\\DAL.Abstractions.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL.Abstractions\\DAL.Abstractions.csproj"
+              },
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\mtrol\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL.Abstractions\\DAL.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL.Abstractions\\DAL.Abstractions.csproj",
+        "projectName": "DAL.Abstractions",
+        "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL.Abstractions\\DAL.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\mtrol\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\mtrol\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\Core\\Core.csproj"
+              },
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL.Abstractions\\DAL.Abstractions.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\DAL.Abstractions\\DAL.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\GenealogicalTree\\GenealogicalTree.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\GenealogicalTree\\GenealogicalTree.csproj",
+        "projectName": "GenealogicalTree",
+        "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\GenealogicalTree\\GenealogicalTree.csproj",
+        "packagesPath": "C:\\Users\\mtrol\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\GenealogicalTree\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL.Abstractions\\BLL.Abstractions.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL.Abstractions\\BLL.Abstractions.csproj"
+              },
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL\\BLL.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\BLL\\BLL.csproj"
+              },
+              "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\PL.Abstractions\\PL.Abstractions.csproj": {
+                "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\PL.Abstractions\\PL.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\PL.Abstractions\\PL.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\PL.Abstractions\\PL.Abstractions.csproj",
+        "projectName": "PL.Abstractions",
+        "projectPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\PL.Abstractions\\PL.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\mtrol\\.nuget\\packages\\",
+        "outputPath": "D:\\Uni\\OOP\\Projects\\GenealogicalTree\\PL.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mtrol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

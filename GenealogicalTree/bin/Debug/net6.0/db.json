@@ -1,0 +1,5 @@
+{
+  "User": "[{\"Username\":\"admin\",\"Password\":\"12345678\",\"Role\":1,\"Id\":0},{\"Username\":\"new_account\",\"Password\":\"12345678\",\"Role\":0,\"Id\":1},{\"Username\":\"xami\",\"Password\":\"12345678\",\"Role\":0,\"Id\":2}]",
+  "PersonProfile": "[{\"Name\":\"John Doe\",\"Country\":\"Ukraine\",\"City\":\"Kharkiv\",\"Birthday\":\"1961-11-11T00:00:00\",\"Id\":0},{\"Name\":\"Jane Doe\",\"Country\":\"Ukraine\",\"City\":\"Kyiv\",\"Birthday\":\"1962-11-11T00:00:00\",\"Id\":1},{\"Name\":\"Stew Doe\",\"Country\":\"Ukraine\",\"City\":\"Kharkiv\",\"Birthday\":\"1991-11-11T00:00:00\",\"Id\":2},{\"Name\":\"Stephanie Stone\",\"Country\":\"Ukraine\",\"City\":\"Kharkiv\",\"Birthday\":\"1991-11-11T00:00:00\",\"Id\":3},{\"Name\":\"Lucas Doe\",\"Country\":\"Ukraine\",\"City\":\"Kharkiv\",\"Birthday\":\"2016-11-11T00:00:00\",\"Id\":4}]",
+  "ParentChild": "[{\"ParentId\":0,\"ChildId\":2,\"Id\":0},{\"ParentId\":1,\"ChildId\":2,\"Id\":1},{\"ParentId\":2,\"ChildId\":4,\"Id\":2},{\"ParentId\":3,\"ChildId\":4,\"Id\":3}]"
+}
